@@ -1,0 +1,597 @@
+[2017-02-22 01:04:10.289482] [0x00007f02cf22a740] [debug]   bidder.ads_ipc_name vanilla-ads-ipc
+bidder.ads_source data/ads
+bidder.geo_ad_ipc_name vanilla-geo-ad-ipc
+bidder.geo_ad_source data/ad_geo
+bidder.geo_ipc_name vanilla-geo-ipc
+bidder.geo_source data/geo
+bidder.host 0.0.0.0
+bidder.log /tmp/bidder_log
+bidder.port 9081
+bidder.root .
+bidder.timeout 50
+config etc/config.cfg
+
+01:04:10.291119: <debug> File opened data/ads
+01:04:10.353574: <debug> File opened data/ad_geo
+01:04:10.544121: <info> geo_ad load : elapsed_sec=0|elapsed_ms=190|elapsed_mu=190533|elapsed_ns=190533840|
+01:04:10.549402: <debug> File opened data/geo
+01:04:10.550599: <debug> Adding city Nazran country Russia done
+01:04:10.550671: <debug> Adding city Ust' Ordynskiy country Russia done
+01:04:10.550741: <debug> Adding city Maykop country Russia done
+01:04:10.550805: <debug> Adding city Mozdok country Russia done
+01:04:10.550866: <debug> Adding city Georgievsk country Russia done
+01:04:10.550930: <debug> Adding city Pyatigorsk country Russia done
+01:04:10.550992: <debug> Adding city Kislovodsk country Russia done
+01:04:10.551053: <debug> Adding city Nevinnomyssk country Russia done
+01:04:10.551116: <debug> Adding city Enurmino country Russia done
+01:04:10.551178: <debug> Adding city Lavrentiya country Russia done
+01:04:10.551239: <debug> Adding city Zvezdnyy country Russia done
+01:04:10.551302: <debug> Adding city Mikhalkino country Russia done
+01:04:10.551364: <debug> Adding city Chernyakhovsk country Russia done
+01:04:10.551425: <debug> Adding city Severomorsk country Russia done
+01:04:10.551489: <debug> Adding city Apatity country Russia done
+01:04:10.551550: <debug> Adding city Polyarnyy country Russia done
+01:04:10.551610: <debug> Adding city Slantsy country Russia done
+01:04:10.551675: <debug> Adding city Kolpino country Russia done
+01:04:10.551738: <debug> Adding city Novozybkov country Russia done
+01:04:10.551798: <debug> Adding city Dyatkovo country Russia done
+01:04:10.551862: <debug> Adding city Shuya country Russia done
+01:04:10.551924: <debug> Adding city Kineshma country Russia done
+01:04:10.551984: <debug> Adding city Balakhna country Russia done
+01:04:10.552047: <debug> Adding city Arzamas country Russia done
+01:04:10.552110: <debug> Adding city Rzhev country Russia done
+01:04:10.552173: <debug> Adding city Vyshnniy Volochek country Russia done
+01:04:10.552239: <debug> Adding city Uglich country Russia done
+01:04:10.552301: <debug> Adding city Yelets country Russia done
+01:04:10.552364: <debug> Adding city Orekhovo-Zuevo country Russia done
+01:04:10.552428: <debug> Adding city Klin country Russia done
+01:04:10.552492: <debug> Adding city Sergiyev Posad country Russia done
+01:04:10.552553: <debug> Adding city Kolomna country Russia done
+01:04:10.552616: <debug> Adding city Bataysk country Russia done
+01:04:10.552679: <debug> Adding city Taganrog country Russia done
+01:04:10.552788: <debug> Adding city Novocherkassk country Russia done
+01:04:10.552862: <debug> Adding city Kamensk Shakhtinskiy country Russia done
+01:04:10.552928: <debug> Adding city Novoshakhtinsk country Russia done
+01:04:10.552989: <debug> Adding city Aleksin country Russia done
+01:04:10.553055: <debug> Adding city Novomoskovsk country Russia done
+01:04:10.553118: <debug> Adding city Shchekino country Russia done
+01:04:10.553180: <debug> Adding city Nikolayevsk country Russia done
+01:04:10.553244: <debug> Adding city Shebekino country Russia done
+01:04:10.553307: <debug> Adding city Gubkin country Russia done
+01:04:10.553369: <debug> Adding city Apsheronsk country Russia done
+01:04:10.553432: <debug> Adding city Kropotkin country Russia done
+01:04:10.553494: <debug> Adding city Ruzayevka country Russia done
+01:04:10.553555: <debug> Adding city Kirsanov country Russia done
+01:04:10.553619: <debug> Adding city Michurinsk country Russia done
+01:04:10.553680: <debug> Adding city Borisoglebsk country Russia done
+01:04:10.553742: <debug> Adding city Oktyabrskiy country Russia done
+01:04:10.553806: <debug> Adding city Plast country Russia done
+01:04:10.553868: <debug> Adding city Bakal country Russia done
+01:04:10.553979: <debug> Adding city Verkhniy Ufaley country Russia done
+01:04:10.554045: <debug> Adding city Severnyy country Russia done
+01:04:10.554110: <debug> Adding city Kirovo-Chepetsk country Russia done
+01:04:10.554172: <debug> Adding city Krasnoturinsk country Russia done
+01:04:10.554235: <debug> Adding city Asbest country Russia done
+01:04:10.554298: <debug> Adding city Alapayevsk country Russia done
+01:04:10.554359: <debug> Adding city Krasnouralsk country Russia done
+01:04:10.554433: <debug> Adding city Severouralsk country Russia done
+01:04:10.554496: <debug> Adding city Novotroitsk country Russia done
+01:04:10.554558: <debug> Adding city Buguruslan country Russia done
+01:04:10.554622: <debug> Adding city Chapayevsk country Russia done
+01:04:10.554683: <debug> Adding city Syzran country Russia done
+01:04:10.554744: <debug> Adding city Novokuybishevsk country Russia done
+01:04:10.554810: <debug> Adding city Naberezhnyye Chelny country Russia done
+01:04:10.554873: <debug> Adding city Zelenodolsk country Russia done
+01:04:10.554933: <debug> Adding city Leninogorsk country Russia done
+01:04:10.554997: <debug> Adding city Bugulma country Russia done
+01:04:10.555060: <debug> Adding city Nefteyugansk country Russia done
+01:04:10.555123: <debug> Adding city Leninsk Kuznetsky country Russia done
+01:04:10.555188: <debug> Adding city Anzhero Sudzhensk country Russia done
+01:04:10.555251: <debug> Adding city Kiselevsk country Russia done
+01:04:10.555313: <debug> Adding city Mundybash country Russia done
+01:04:10.555378: <debug> Adding city Chernogorsk country Russia done
+01:04:10.555441: <debug> Adding city Abaza country Russia done
+01:04:10.555500: <debug> Adding city Iskitim country Russia done
+01:04:10.555566: <debug> Adding city Toguchin country Russia done
+01:04:10.555628: <debug> Adding city Kupina country Russia done
+01:04:10.555691: <debug> Adding city Zaozernyy country Russia done
+01:04:10.555755: <debug> Adding city Bogotol country Russia done
+01:04:10.555817: <debug> Adding city Shilka country Russia done
+01:04:10.555880: <debug> Adding city Sherlovaya Gora country Russia done
+01:04:10.555948: <debug> Adding city Petrovsk Zabaykalskiy country Russia done
+01:04:10.556013: <debug> Adding city Arsenyev country Russia done
+01:04:10.556076: <debug> Adding city Partizansk country Russia done
+01:04:10.556140: <debug> Adding city Dalnerechensk country Russia done
+01:04:10.556204: <debug> Adding city Zemlya Bunge country Russia done
+01:04:10.556264: <debug> Adding city Khorgo country Russia done
+01:04:10.556329: <debug> Adding city Put Lenina country Russia done
+01:04:10.556392: <debug> Adding city Obluchye country Russia done
+01:04:10.556453: <debug> Adding city Vanino country Russia done
+01:04:10.556516: <debug> Adding city Omchak country Russia done
+01:04:10.556580: <debug> Adding city Uglegorsk country Russia done
+01:04:10.556642: <debug> Adding city Kholmsk country Russia done
+01:04:10.556708: <debug> Adding city Solikamsk country Russia done
+01:04:10.556790: <debug> Adding city Kizel country Russia done
+01:04:10.556855: <debug> Adding city Pakhachi country Russia done
+01:04:10.556922: <debug> Adding city Oymyakon country Russia done
+01:04:10.556987: <debug> Adding city Timiryazevskiy country Russia done
+01:04:10.557048: <debug> Adding city Asino country Russia done
+01:04:10.557115: <debug> Adding city Strezhevoy country Russia done
+01:04:10.557179: <debug> Adding city Cherkessk country Russia done
+01:04:10.557241: <debug> Adding city Vladikavkaz country Russia done
+01:04:10.557307: <debug> Adding city Blagodarnyy country Russia done
+01:04:10.557370: <debug> Adding city Zelenokumsk country Russia done
+01:04:10.557432: <debug> Adding city Mukhomornoye country Russia done
+01:04:10.557496: <debug> Adding city Beringovskiy country Russia done
+01:04:10.557559: <debug> Adding city Bilibino country Russia done
+01:04:10.557622: <debug> Adding city Mys Shmidta country Russia done
+01:04:10.557687: <debug> Adding city Egvekinot country Russia done
+01:04:10.557749: <debug> Adding city Sovetsk country Russia done
+01:04:10.557842: <debug> Adding city Nikel country Russia done
+01:04:10.557909: <debug> Adding city Monchegorsk country Russia done
+01:04:10.557972: <debug> Adding city Kirovsk country Russia done
+01:04:10.558033: <debug> Adding city Borovichi country Russia done
+01:04:10.558099: <debug> Adding city Staraya Russa country Russia done
+01:04:10.558162: <debug> Adding city Volkhov country Russia done
+01:04:10.558224: <debug> Adding city Tikhvin country Russia done
+01:04:10.558298: <debug> Adding city Svetogorsk country Russia done
+01:04:10.558362: <debug> Adding city Gatchina country Russia done
+01:04:10.558423: <debug> Adding city Luga country Russia done
+01:04:10.558488: <debug> Adding city Klintsy country Russia done
+01:04:10.558550: <debug> Adding city Roslavl country Russia done
+01:04:10.558611: <debug> Adding city Safonovo country Russia done
+01:04:10.558676: <debug> Adding city Vyazma country Russia done
+01:04:10.558738: <debug> Adding city Segezha country Russia done
+01:04:10.558800: <debug> Adding city Vichuga country Russia done
+01:04:10.558864: <debug> Adding city Sharya country Russia done
+01:04:10.558927: <debug> Adding city Buy country Russia done
+01:04:10.558989: <debug> Adding city Dzerzhinsk country Russia done
+01:04:10.559054: <debug> Adding city Vyska country Russia done
+01:04:10.559117: <debug> Adding city Kimry country Russia done
+01:04:10.559179: <debug> Adding city Bezhetsk country Russia done
+01:04:10.559243: <debug> Adding city Nelidovo country Russia done
+01:04:10.559305: <debug> Adding city Bologoye country Russia done
+01:04:10.559366: <debug> Adding city Torzhok country Russia done
+01:04:10.559430: <debug> Adding city Sokol country Russia done
+01:04:10.559493: <debug> Adding city Cherepovets country Russia done
+01:04:10.559555: <debug> Adding city Rybinsk country Russia done
+01:04:10.559620: <debug> Adding city Rostov country Russia done
+01:04:10.559683: <debug> Adding city Kaluga country Russia done
+01:04:10.559744: <debug> Adding city Kirov country Russia done
+01:04:10.559809: <debug> Adding city Obninsk country Russia done
+01:04:10.559872: <debug> Adding city Lgov country Russia done
+01:04:10.559934: <debug> Adding city Zheleznogorsk country Russia done
+01:04:10.560000: <debug> Adding city Gryazi country Russia done
+01:04:10.560064: <debug> Adding city Yegoryevsk country Russia done
+01:04:10.560125: <debug> Adding city Podolsk country Russia done
+01:04:10.560190: <debug> Adding city Solnechnogorsk country Russia done
+01:04:10.560252: <debug> Adding city Noginsk country Russia done
+01:04:10.560313: <debug> Adding city Serpukhov country Russia done
+01:04:10.560377: <debug> Adding city Livny country Russia done
+01:04:10.560441: <debug> Adding city Mtsensk country Russia done
+01:04:10.560502: <debug> Adding city Salsk country Russia done
+01:04:10.560568: <debug> Adding city Belaya Kalitva country Russia done
+01:04:10.560632: <debug> Adding city Shakhty country Russia done
+01:04:10.560694: <debug> Adding city Millerovo country Russia done
+01:04:10.560778: <debug> Adding city Yefremov country Russia done
+01:04:10.560845: <debug> Adding city Bogoroditsk country Russia done
+01:04:10.560909: <debug> Adding city Kamyshin country Russia done
+01:04:10.560973: <debug> Adding city Pallasovka country Russia done
+01:04:10.561036: <debug> Adding city Frolovo country Russia done
+01:04:10.561097: <debug> Adding city Volzhskiy country Russia done
+01:04:10.561162: <debug> Adding city Mikhaylovka country Russia done
+01:04:10.561226: <debug> Adding city Uryupinsk country Russia done
+01:04:10.561289: <debug> Adding city Starsy Oskol country Russia done
+01:04:10.561354: <debug> Adding city Alekseyevka country Russia done
+01:04:10.561416: <debug> Adding city Valuyki country Russia done
+01:04:10.561478: <debug> Adding city Tuapse country Russia done
+01:04:10.561542: <debug> Adding city Gelendzhik country Russia done
+01:04:10.561605: <debug> Adding city Labinsk country Russia done
+01:04:10.561666: <debug> Adding city Armavir country Russia done
+01:04:10.561732: <debug> Adding city Timashevsk country Russia done
+01:04:10.561823: <debug> Adding city Tikhoretsk country Russia done
+01:04:10.561886: <debug> Adding city Yeysk country Russia done
+01:04:10.561952: <debug> Adding city Saransk country Russia done
+01:04:10.562015: <debug> Adding city Kamenka country Russia done
+01:04:10.562076: <debug> Adding city Kuznetsk country Russia done
+01:04:10.562141: <debug> Adding city Serdobsk country Russia done
+01:04:10.562204: <debug> Adding city Kasimov country Russia done
+01:04:10.562275: <debug> Adding city Sasovo country Russia done
+01:04:10.562341: <debug> Adding city Kotovsk country Russia done
+01:04:10.562409: <debug> Adding city Morshansk country Russia done
+01:04:10.562476: <debug> Adding city Kovrov country Russia done
+01:04:10.562545: <debug> Adding city Murom country Russia done
+01:04:10.562613: <debug> Adding city Rayevskiy country Russia done
+01:04:10.562678: <debug> Adding city Sibay country Russia done
+01:04:10.562747: <debug> Adding city Kumertau country Russia done
+01:04:10.562814: <debug> Adding city Salavat country Russia done
+01:04:10.562881: <debug> Adding city Belebey country Russia done
+01:04:10.562950: <debug> Adding city Tuymazy country Russia done
+01:04:10.563018: <debug> Adding city Neftekamsk country Russia done
+01:04:10.563083: <debug> Adding city Troitsk country Russia done
+01:04:10.563153: <debug> Adding city Yemanzhelinsk country Russia done
+01:04:10.563220: <debug> Adding city Kartaly country Russia done
+01:04:10.563285: <debug> Adding city Asha country Russia done
+01:04:10.563354: <debug> Adding city Miass country Russia done
+01:04:10.563422: <debug> Adding city Kyshtym country Russia done
+01:04:10.563512: <debug> Adding city Kurtamysh country Russia done
+01:04:10.563585: <debug> Adding city Shadrinsk country Russia done
+01:04:10.563653: <debug> Adding city Varnek country Russia done
+01:04:10.563719: <debug> Adding city Bugrino country Russia done
+01:04:10.563790: <debug> Adding city Yamburg country Russia done
+01:04:10.563857: <debug> Adding city Nakhodka country Russia done
+01:04:10.563924: <debug> Adding city Sosnogorsk country Russia done
+01:04:10.563988: <debug> Adding city Sovetsk country Russia failed!
+01:04:10.564056: <debug> Adding city Slobodskoy country Russia done
+01:04:10.564122: <debug> Adding city Kirs country Russia done
+01:04:10.564190: <debug> Adding city Omutninsk country Russia done
+01:04:10.564258: <debug> Adding city Kotelnich country Russia done
+01:04:10.564324: <debug> Adding city Yoshkar Ola country Russia done
+01:04:10.564395: <debug> Adding city Kamensk Uralskiy country Russia done
+01:04:10.564464: <debug> Adding city Polevskoy country Russia done
+01:04:10.564531: <debug> Adding city Tavda country Russia done
+01:04:10.564601: <debug> Adding city Artemovskiy country Russia done
+01:04:10.564668: <debug> Adding city Nevyansk country Russia done
+01:04:10.564763: <debug> Adding city Verkhnyaya Salda country Russia done
+01:04:10.564840: <debug> Adding city Nizhnyaya Tura country Russia done
+01:04:10.564909: <debug> Adding city Karpinsk country Russia done
+01:04:10.564975: <debug> Adding city Ivdel country Russia done
+01:04:10.565044: <debug> Adding city Krasnoufimsk country Russia done
+01:04:10.565114: <debug> Adding city Sarapul country Russia done
+01:04:10.565181: <debug> Adding city Mozhga country Russia done
+01:04:10.565251: <debug> Adding city Votkinsk country Russia done
+01:04:10.565318: <debug> Adding city Glazov country Russia done
+01:04:10.565383: <debug> Adding city Kanash country Russia done
+01:04:10.565453: <debug> Adding city Shumerlya country Russia done
+01:04:10.565520: <debug> Adding city Alatyr country Russia done
+01:04:10.565586: <debug> Adding city Sol-lletsk country Russia done
+01:04:10.565655: <debug> Adding city Dombarovskiy country Russia done
+01:04:10.565722: <debug> Adding city Mednogorsk country Russia done
+01:04:10.565789: <debug> Adding city Gay country Russia done
+01:04:10.565858: <debug> Adding city Buzuluk country Russia done
+01:04:10.565925: <debug> Adding city Otradnyy country Russia done
+01:04:10.565991: <debug> Adding city Tolyatti country Russia done
+01:04:10.566089: <debug> Adding city Engels country Russia done
+01:04:10.566159: <debug> Adding city Pugachev country Russia done
+01:04:10.566226: <debug> Adding city Volsk country Russia done
+01:04:10.566296: <debug> Adding city Atkarsk country Russia done
+01:04:10.566364: <debug> Adding city Balashov country Russia done
+01:04:10.566431: <debug> Adding city Almetyevsk country Russia done
+01:04:10.566502: <debug> Adding city Chistopol country Russia done
+01:04:10.566580: <debug> Adding city Nizhnekamsk country Russia done
+01:04:10.566649: <debug> Adding city Dimitrovgrad country Russia done
+01:04:10.566719: <debug> Adding city Peregrebnoye country Russia done
+01:04:10.566787: <debug> Adding city Saranpaul country Russia done
+01:04:10.566855: <debug> Adding city Uray country Russia done
+01:04:10.566923: <debug> Adding city Laryak country Russia done
+01:04:10.566991: <debug> Adding city Kogalym country Russia done
+01:04:10.567058: <debug> Adding city Megion country Russia done
+01:04:10.567127: <debug> Adding city Cherlak country Russia done
+01:04:10.567195: <debug> Adding city Kalachinsk country Russia done
+01:04:10.567262: <debug> Adding city Nazyvayevsk country Russia done
+01:04:10.567338: <debug> Adding city Isikul country Russia done
+01:04:10.567413: <debug> Adding city Ishim country Russia done
+01:04:10.567488: <debug> Adding city Golyshmanovo country Russia done
+01:04:10.567565: <debug> Adding city Yalutorovsk country Russia done
+01:04:10.567639: <debug> Adding city Biysk country Russia done
+01:04:10.567715: <debug> Adding city Zmeinogorsk country Russia done
+01:04:10.567790: <debug> Adding city Aleysk country Russia done
+01:04:10.567866: <debug> Adding city Novoaltaysk country Russia done
+01:04:10.567942: <debug> Adding city Kamenna Obi country Russia done
+01:04:10.568017: <debug> Adding city Gornyak country Russia done
+01:04:10.568091: <debug> Adding city Kulunda country Russia done
+01:04:10.568167: <debug> Adding city Slavgorod country Russia done
+01:04:10.568243: <debug> Adding city Tashtagol country Russia done
+01:04:10.568319: <debug> Adding city Guryevsk country Russia done
+01:04:10.568393: <debug> Adding city Yurga country Russia done
+01:04:10.568468: <debug> Adding city Topki country Russia done
+01:04:10.568544: <debug> Adding city Mariinsk country Russia done
+01:04:10.568619: <debug> Adding city Shira country Russia done
+01:04:10.568695: <debug> Adding city Cherepanovo country Russia done
+01:04:10.568788: <debug> Adding city Kargat country Russia done
+01:04:10.568866: <debug> Adding city Ob country Russia done
+01:04:10.568943: <debug> Adding city Karasuk country Russia done
+01:04:10.569019: <debug> Adding city Barabinsk country Russia done
+01:04:10.569095: <debug> Adding city Tatarsk country Russia done
+01:04:10.569171: <debug> Adding city Kaspiysk country Russia done
+01:04:10.569246: <debug> Adding city Derbent country Russia done
+01:04:10.569321: <debug> Adding city Buynaksk country Russia done
+01:04:10.569397: <debug> Adding city Yessey country Russia done
+01:04:10.569472: <debug> Adding city Ulkan country Russia done
+01:04:10.569548: <debug> Adding city Kirensk country Russia done
+01:04:10.569627: <debug> Adding city Zheleznogorsk Ilimskiy country Russia done
+01:04:10.569703: <debug> Adding city Vikhorevka country Russia done
+01:04:10.569781: <debug> Adding city Biryusinsk country Russia done
+01:04:10.569857: <debug> Adding city Kodinskiy country Russia done
+01:04:10.569933: <debug> Adding city Artemovsk country Russia done
+01:04:10.570008: <debug> Adding city Uyar country Russia done
+01:04:10.570084: <debug> Adding city Uzhur country Russia done
+01:04:10.570159: <debug> Adding city Sayanogorsk country Russia done
+01:04:10.570233: <debug> Adding city Podkamennaya country Russia done
+01:04:10.570308: <debug> Adding city Igarka country Russia done
+01:04:10.570382: <debug> Adding city Agapa country Russia done
+01:04:10.570457: <debug> Adding city Boyarka country Russia done
+01:04:10.570533: <debug> Adding city Nordvik country Russia done
+01:04:10.570608: <debug> Adding city Chelyuskin country Russia done
+01:04:10.570704: <debug> Adding city Taksimo country Russia done
+01:04:10.570783: <debug> Adding city Gusinoozyorsk country Russia done
+01:04:10.570859: <debug> Adding city Aginskoye country Russia done
+01:04:10.570935: <debug> Adding city Progress country Russia done
+01:04:10.571011: <debug> Adding city Belogorsk country Russia done
+01:04:10.571087: <debug> Adding city Nyukzha country Russia done
+01:04:10.571161: <debug> Adding city Nerchinsk country Russia done
+01:04:10.571245: <debug> Adding city Kavalerovo country Russia done
+01:04:10.571322: <debug> Adding city Spassk Dalniy country Russia done
+01:04:10.571397: <debug> Adding city Shalaurova country Russia done
+01:04:10.571473: <debug> Adding city Logashkino country Russia done
+01:04:10.571548: <debug> Adding city Ust Kuyga country Russia done
+01:04:10.571625: <debug> Adding city Pokrovsk country Russia done
+01:04:10.571701: <debug> Adding city Verkhnevilyuysk country Russia done
+01:04:10.571777: <debug> Adding city Vitim country Russia done
+01:04:10.571851: <debug> Adding city Olyokminsk country Russia done
+01:04:10.571928: <debug> Adding city Tunguskhaya country Russia done
+01:04:10.572002: <debug> Adding city Natara country Russia done
+01:04:10.572078: <debug> Adding city Zhilinda country Russia done
+01:04:10.572153: <debug> Adding city Trofimovsk country Russia done
+01:04:10.572231: <debug> Adding city Tukchi country Russia done
+01:04:10.572306: <debug> Adding city Amursk country Russia done
+01:04:10.572382: <debug> Adding city Bikin country Russia done
+01:04:10.572457: <debug> Adding city Vyazemskiy country Russia done
+01:04:10.572532: <debug> Adding city Chegdomyn country Russia done
+01:04:10.572608: <debug> Adding city Siglan country Russia done
+01:04:10.572684: <debug> Adding city Karamken country Russia done
+01:04:10.572778: <debug> Adding city Strelka country Russia done
+01:04:10.572858: <debug> Adding city Severo Kurilsk country Russia done
+01:04:10.572936: <debug> Adding city Krasnogorsk country Russia done
+01:04:10.573012: <debug> Adding city Poronaysk country Russia done
+01:04:10.573087: <debug> Adding city Makarov country Russia done
+01:04:10.573163: <debug> Adding city Dolinsk country Russia done
+01:04:10.573238: <debug> Adding city Nevelsk country Russia done
+01:04:10.573315: <debug> Adding city Kudymkar country Russia done
+01:04:10.573390: <debug> Adding city Kungur country Russia done
+01:04:10.573467: <debug> Adding city Krasnokamsk country Russia done
+01:04:10.573541: <debug> Adding city Chusovoy country Russia done
+01:04:10.573615: <debug> Adding city Gubakha country Russia done
+01:04:10.573691: <debug> Adding city Utkholok country Russia done
+01:04:10.573766: <debug> Adding city Bol'sheretsk country Russia done
+01:04:10.573842: <debug> Adding city Il'pyrskiy country Russia done
+01:04:10.573916: <debug> Adding city Korf country Russia done
+01:04:10.573990: <debug> Adding city Kolpashevo country Russia done
+01:04:10.574066: <debug> Adding city Omolon country Russia done
+01:04:10.574140: <debug> Adding city Pevek country Russia done
+01:04:10.574216: <debug> Adding city Umba country Russia done
+01:04:10.574292: <debug> Adding city Kovda country Russia done
+01:04:10.574369: <debug> Adding city Velikiy Novgorod country Russia done
+01:04:10.574445: <debug> Adding city Velikiye Luki country Russia done
+01:04:10.574521: <debug> Adding city Belomorsk country Russia done
+01:04:10.574596: <debug> Adding city Kem country Russia done
+01:04:10.574673: <debug> Adding city Krasino country Russia done
+01:04:10.574748: <debug> Adding city Matochkin Shar country Russia done
+01:04:10.574824: <debug> Adding city Severodvinsk country Russia done
+01:04:10.574900: <debug> Adding city Kursk country Russia done
+01:04:10.574976: <debug> Adding city Tula country Russia done
+01:04:10.575052: <debug> Adding city Tambov country Russia done
+01:04:10.575128: <debug> Adding city Sterlitamak country Russia done
+01:04:10.575203: <debug> Adding city Kurgan country Russia done
+01:04:10.575278: <debug> Adding city Indiga country Russia done
+01:04:10.575355: <debug> Adding city Shoyna country Russia done
+01:04:10.575460: <debug> Adding city Novy Port country Russia done
+01:04:10.575538: <debug> Adding city Salekhard country Russia done
+01:04:10.575613: <debug> Adding city Gyda country Russia done
+01:04:10.575688: <debug> Adding city Tazovskiy country Russia done
+01:04:10.575763: <debug> Adding city Novy Urengoy country Russia done
+01:04:10.575838: <debug> Adding city Nadym country Russia done
+01:04:10.575914: <debug> Adding city Noyabrsk country Russia done
+01:04:10.575997: <debug> Adding city Syktyvkar country Russia done
+01:04:10.576074: <debug> Adding city Ukhta country Russia done
+01:04:10.576149: <debug> Adding city Serov country Russia done
+01:04:10.576225: <debug> Adding city Cheboksary country Russia done
+01:04:10.576299: <debug> Adding city Orsk country Russia done
+01:04:10.576374: <debug> Adding city Balakovo country Russia done
+01:04:10.576448: <debug> Adding city Igrim country Russia done
+01:04:10.576524: <debug> Adding city Nyagan country Russia done
+01:04:10.576599: <debug> Adding city Khanty Mansiysk country Russia done
+01:04:10.576675: <debug> Adding city Nizhenvartovsk country Russia done
+01:04:10.576778: <debug> Adding city Numto country Russia done
+01:04:10.576859: <debug> Adding city Tara country Russia done
+01:04:10.576935: <debug> Adding city Tobolsk country Russia done
+01:04:10.577014: <debug> Adding city Rubtsovsk country Russia done
+01:04:10.577090: <debug> Adding city Gorno Altaysk country Russia done
+01:04:10.577167: <debug> Adding city Prokopyevsk country Russia done
+01:04:10.577244: <debug> Adding city Makhachkala country Russia done
+01:04:10.577319: <debug> Adding city Tura country Russia done
+01:04:10.577388: <debug> Adding city Noginsk country Russia failed!
+01:04:10.577463: <debug> Adding city Yerema country Russia done
+01:04:10.577540: <debug> Adding city Tayshet country Russia done
+01:04:10.577618: <debug> Adding city Usolye Sibirskoye country Russia done
+01:04:10.577692: <debug> Adding city Slyudyanka country Russia done
+01:04:10.577768: <debug> Adding city Cheremkhovo country Russia done
+01:04:10.577845: <debug> Adding city Zima country Russia done
+01:04:10.577920: <debug> Adding city Tulun country Russia done
+01:04:10.577996: <debug> Adding city Nizhneudinsk country Russia done
+01:04:10.578071: <debug> Adding city Ust Kut country Russia done
+01:04:10.578147: <debug> Adding city Bodaybo country Russia done
+01:04:10.578221: <debug> Adding city Komsa country Russia done
+01:04:10.578296: <debug> Adding city Kansk country Russia done
+01:04:10.578371: <debug> Adding city Achinsk country Russia done
+01:04:10.578448: <debug> Adding city Yeniseysk country Russia done
+01:04:10.578523: <debug> Adding city Lesosibirsk country Russia done
+01:04:10.578600: <debug> Adding city Turukhansk country Russia done
+01:04:10.578675: <debug> Adding city Vorontsovo country Russia done
+01:04:10.578756: <debug> Adding city Starorybnoye country Russia done
+01:04:10.578831: <debug> Adding city Mikhaylova country Russia done
+01:04:10.578907: <debug> Adding city Dudinka country Russia done
+01:04:10.578981: <debug> Adding city Teli country Russia done
+01:04:10.579059: <debug> Adding city Novyy Uoyin country Russia done
+01:04:10.579134: <debug> Adding city Bagdarin country Russia done
+01:04:10.579210: <debug> Adding city Severobaykalsk country Russia done
+01:04:10.579285: <debug> Adding city Kyakhta country Russia done
+01:04:10.579361: <debug> Adding city Svobodnyy country Russia done
+01:04:10.579434: <debug> Adding city Zeya country Russia done
+01:04:10.579509: <debug> Adding city Magdagachi country Russia done
+01:04:10.579584: <debug> Adding city Shimanovsk country Russia done
+01:04:10.579661: <debug> Adding city Skovorodino country Russia done
+01:04:10.579738: <debug> Adding city Tynda country Russia done
+01:04:10.579814: <debug> Adding city Olovyannaya country Russia done
+01:04:10.579888: <debug> Adding city Mogocha country Russia done
+01:04:10.579964: <debug> Adding city Krasnokamensk country Russia done
+01:04:10.580039: <debug> Adding city Borzya country Russia done
+01:04:10.580115: <debug> Adding city Khilok country Russia done
+01:04:10.580221: <debug> Adding city Nakhodka country Russia failed!
+01:04:10.580300: <debug> Adding city Ussuriysk country Russia done
+01:04:10.580377: <debug> Adding city Lesozavodsk country Russia done
+01:04:10.580452: <debug> Adding city Kavache country Russia done
+01:04:10.580527: <debug> Adding city Verkhoyansk country Russia done
+01:04:10.580601: <debug> Adding city Cherskiy country Russia done
+01:04:10.580676: <debug> Adding city Srednekolymsk country Russia done
+01:04:10.580779: <debug> Adding city Zyryanka country Russia done
+01:04:10.580860: <debug> Adding city Eldikan country Russia done
+01:04:10.580936: <debug> Adding city Chagda country Russia done
+01:04:10.581012: <debug> Adding city Khandyga country Russia done
+01:04:10.581090: <debug> Adding city Ust Maya country Russia done
+01:04:10.581165: <debug> Adding city Neryungri country Russia done
+01:04:10.581241: <debug> Adding city Chernyshevskiy country Russia done
+01:04:10.581316: <debug> Adding city Terbyas country Russia done
+01:04:10.581392: <debug> Adding city Vilyuysk country Russia done
+01:04:10.581466: <debug> Adding city Sangar country Russia done
+01:04:10.581550: <debug> Adding city Menkere country Russia done
+01:04:10.581629: <debug> Adding city Saskylakh country Russia done
+01:04:10.581735: <debug> Adding city Govorovo country Russia done
+01:04:10.581847: <debug> Adding city Sagastyr country Russia done
+01:04:10.581964: <debug> Adding city Ust Olensk country Russia done
+01:04:10.582078: <debug> Adding city Suntar country Russia done
+01:04:10.582169: <debug> Adding city Olenek country Russia done
+01:04:10.582253: <debug> Adding city Udachnyy country Russia done
+01:04:10.582335: <debug> Adding city Birobidzhan country Russia done
+01:04:10.582421: <debug> Adding city Khakhar country Russia done
+01:04:10.582503: <debug> Adding city De Kastri country Russia done
+01:04:10.582585: <debug> Adding city Chumikan country Russia done
+01:04:10.582670: <debug> Adding city Komsomolsk na Amure country Russia done
+01:04:10.582753: <debug> Adding city Ayan country Russia done
+01:04:10.582839: <debug> Adding city Nikolayevsk na Amure country Russia done
+01:04:10.582921: <debug> Adding city Savetskaya Gavan country Russia done
+01:04:10.583000: <debug> Adding city Evensk country Russia done
+01:04:10.583079: <debug> Adding city Palatka country Russia done
+01:04:10.583160: <debug> Adding city Omsukchan country Russia done
+01:04:10.583241: <debug> Adding city Susuman country Russia done
+01:04:10.583322: <debug> Adding city Nogliki country Russia done
+01:04:10.583407: <debug> Adding city Aleksandrovsk Sakhalinskiy country Russia done
+01:04:10.583490: <debug> Adding city Korsakov country Russia done
+01:04:10.583571: <debug> Adding city Manily country Russia done
+01:04:10.583645: <debug> Adding city Oktyabrskiy country Russia failed!
+01:04:10.583727: <debug> Adding city Klyuchi country Russia done
+01:04:10.583811: <debug> Adding city Ust Kamchatsk country Russia done
+01:04:10.583916: <debug> Adding city Provideniya country Russia done
+01:04:10.584034: <debug> Adding city Uelen country Russia done
+01:04:10.584140: <debug> Adding city Kandalaksha country Russia done
+01:04:10.584226: <debug> Adding city Vyborg country Russia done
+01:04:10.584309: <debug> Adding city Kondopoga country Russia done
+01:04:10.584389: <debug> Adding city Rusanovo country Russia done
+01:04:10.584471: <debug> Adding city Mezen country Russia done
+01:04:10.584553: <debug> Adding city Velsk country Russia done
+01:04:10.584633: <debug> Adding city Kotlas country Russia done
+01:04:10.584714: <debug> Adding city Onega country Russia done
+01:04:10.584819: <debug> Adding city Ivanovo country Russia done
+01:04:10.584904: <debug> Adding city Kostroma country Russia done
+01:04:10.584984: <debug> Adding city Velikiy Ustyug country Russia done
+01:04:10.585062: <debug> Adding city Lipetsk country Russia done
+01:04:10.585142: <debug> Adding city Orel country Russia done
+01:04:10.585223: <debug> Adding city Volgodonsk country Russia done
+01:04:10.585305: <debug> Adding city Belgorod country Russia done
+01:04:10.585419: <debug> Adding city Novorossiysk country Russia done
+01:04:10.585500: <debug> Adding city Vladimir country Russia done
+01:04:10.585582: <debug> Adding city Birsk country Russia done
+01:04:10.585663: <debug> Adding city Zlatoust country Russia done
+01:04:10.585743: <debug> Adding city Amderma country Russia done
+01:04:10.585826: <debug> Adding city Naryan Mar country Russia done
+01:04:10.585907: <debug> Adding city Inta country Russia done
+01:04:10.585995: <debug> Adding city Usinsk country Russia done
+01:04:10.586080: <debug> Adding city Pechora country Russia done
+01:04:10.586162: <debug> Adding city Pervouralsk country Russia done
+01:04:10.586243: <debug> Adding city Izhevsk country Russia done
+01:04:10.586322: <debug> Adding city Akhtubinsk country Russia done
+01:04:10.586403: <debug> Adding city Elista country Russia done
+01:04:10.586486: <debug> Adding city Krasnoarmeysk country Russia done
+01:04:10.586569: <debug> Adding city Berezniki country Russia done
+01:04:10.586651: <debug> Adding city Naltchik country Russia done
+01:04:10.586730: <debug> Adding city Stavropol country Russia done
+01:04:10.586814: <debug> Adding city Ugolnye Kopi country Russia done
+01:04:10.586896: <debug> Adding city Kaliningrad country Russia done
+01:04:10.586977: <debug> Adding city Pskov country Russia done
+01:04:10.587059: <debug> Adding city Bryansk country Russia done
+01:04:10.587141: <debug> Adding city Smolensk country Russia done
+01:04:10.587221: <debug> Adding city Petrozavodsk country Russia done
+01:04:10.587301: <debug> Adding city Tver country Russia done
+01:04:10.587384: <debug> Adding city Vologda country Russia done
+01:04:10.587466: <debug> Adding city Yaroslavl country Russia done
+01:04:10.587541: <debug> Adding city Rostov country Russia failed!
+01:04:10.587621: <debug> Adding city Sochi country Russia done
+01:04:10.587704: <debug> Adding city Krasnodar country Russia done
+01:04:10.587787: <debug> Adding city Penza country Russia done
+01:04:10.587867: <debug> Adding city Ryazan country Russia done
+01:04:10.587949: <debug> Adding city Voronezh country Russia done
+01:04:10.588028: <debug> Adding city Magnitogorsk country Russia done
+01:04:10.588107: <debug> Adding city Chelyabinsk country Russia done
+01:04:10.588188: <debug> Adding city Vorkuta country Russia done
+01:04:10.588262: <debug> Adding city Kirov country Russia failed!
+01:04:10.588343: <debug> Adding city Nizhny Tagil country Russia done
+01:04:10.588424: <debug> Adding city Astrakhan country Russia done
+01:04:10.588507: <debug> Adding city Orenburg country Russia done
+01:04:10.588589: <debug> Adding city Saratov country Russia done
+01:04:10.588671: <debug> Adding city Ulyanovsk country Russia done
+01:04:10.588783: <debug> Adding city Omsk country Russia done
+01:04:10.588869: <debug> Adding city Tyumen country Russia done
+01:04:10.588950: <debug> Adding city Novokuznetsk country Russia done
+01:04:10.589034: <debug> Adding city Kemerovo country Russia done
+01:04:10.589114: <debug> Adding city Groznyy country Russia done
+01:04:10.589193: <debug> Adding city Ust-Ulimsk country Russia done
+01:04:10.589273: <debug> Adding city Angarsk country Russia done
+01:04:10.589352: <debug> Adding city Abakan country Russia done
+01:04:10.589432: <debug> Adding city Norilsk country Russia done
+01:04:10.589512: <debug> Adding city Khatanga country Russia done
+01:04:10.589592: <debug> Adding city Kyzyl country Russia done
+01:04:10.589675: <debug> Adding city Ulan Ude country Russia done
+01:04:10.589756: <debug> Adding city Blagoveshchensk country Russia done
+01:04:10.589834: <debug> Adding city Bukachacha country Russia done
+01:04:10.589914: <debug> Adding city Dalnegorsk country Russia done
+01:04:10.589996: <debug> Adding city Ambarchik country Russia done
+01:04:10.590076: <debug> Adding city Batagay country Russia done
+01:04:10.590158: <debug> Adding city Chokurdakh country Russia done
+01:04:10.590241: <debug> Adding city Ust Nera country Russia done
+01:04:10.590321: <debug> Adding city Lensk country Russia done
+01:04:10.590400: <debug> Adding city Aldan country Russia done
+01:04:10.590512: <debug> Adding city Mirnyy country Russia done
+01:04:10.590596: <debug> Adding city Zhigansk country Russia done
+01:04:10.590676: <debug> Adding city Okhotsk country Russia done
+01:04:10.590755: <debug> Adding city Khabarovsk country Russia done
+01:04:10.590834: <debug> Adding city Okha country Russia done
+01:04:10.590917: <debug> Adding city Yuzhno Sakhalinsk country Russia done
+01:04:10.591000: <debug> Adding city Tomsk country Russia done
+01:04:10.591089: <debug> Adding city Anadyr country Russia done
+01:04:10.591171: <debug> Adding city Murmansk country Russia done
+01:04:10.591250: <debug> Adding city Archangel country Russia done
+01:04:10.591333: <debug> Adding city Nizhny Novgorod country Russia done
+01:04:10.591416: <debug> Adding city Volgograd country Russia done
+01:04:10.591499: <debug> Adding city Ufa country Russia done
+01:04:10.591579: <debug> Adding city Yekaterinburg country Russia done
+01:04:10.591661: <debug> Adding city Samara country Russia done
+01:04:10.591742: <debug> Adding city Kazan country Russia done
+01:04:10.591821: <debug> Adding city Surgut country Russia done
+01:04:10.591900: <debug> Adding city Barnaul country Russia done
+01:04:10.591981: <debug> Adding city Novosibirsk country Russia done
+01:04:10.592062: <debug> Adding city Bratsk country Russia done
+01:04:10.592140: <debug> Adding city Irkutsk country Russia done
+01:04:10.592222: <debug> Adding city Krasnoyarsk country Russia done
+01:04:10.592303: <debug> Adding city Dickson country Russia done
+01:04:10.592383: <debug> Adding city Chita country Russia done
+01:04:10.592463: <debug> Adding city Vladivostok country Russia done
+01:04:10.592544: <debug> Adding city Nizhneyansk country Russia done
+01:04:10.592623: <debug> Adding city Yakutsk country Russia done
+01:04:10.592701: <debug> Adding city Tiksi country Russia done
+01:04:10.592797: <debug> Adding city Magadan country Russia done
+01:04:10.592880: <debug> Adding city Perm country Russia done
+01:04:10.592960: <debug> Adding city Palana country Russia done
+01:04:10.593046: <debug> Adding city Petropavlovsk Kamchatskiy country Russia done
+01:04:10.593131: <debug> Adding city St. Petersburg country Russia done
+01:04:10.593212: <debug> Adding city Moscow country Russia done
+01:04:10.594064: <info> selector load : elapsed_sec=0|elapsed_ms=302|elapsed_mu=302961|elapsed_ns=302961302|
