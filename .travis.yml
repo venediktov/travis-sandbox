@@ -66,7 +66,7 @@ install:
   - 'echo "using clang : : ccache $CXX : <cflags>-std=c11 <cxxflags>-std=c++11 ;" >> ~/user-config.jam'
   - cd "$BOOST_ROOT"; ./b2 toolset="$BOOST_TOOLSET" threading=multi --prefix="$BOOST_ROOT" -d0 install
 
-script
+script:
   - CXX --version
   - cmake --version
   - mkdir "$TRAVIS_BUILD_DIR/build-vanilla"
