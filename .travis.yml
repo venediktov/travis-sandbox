@@ -12,7 +12,7 @@ matrix:
         apt:
           sources: [ 'ubuntu-toolchain-r-test', 'kalakris-cmake' ]
           packages: [ 'g++-5', 'libstdc++-5-dev', 'cmake' ]
-      env: CMAKE_BUILD_TYPE=Debug
+      env: CMAKE_BUILD_TYPE=Debug BOOST_VERSION=1.60.0
 
     - os: linux
       compiler: gcc
@@ -20,7 +20,7 @@ matrix:
         apt:
           sources: [ 'ubuntu-toolchain-r-test', 'kalakris-cmake' ]
           packages: [ 'g++-5', 'libstdc++-5-dev', 'cmake' ]
-      env: CMAKE_BUILD_TYPE=Release
+      env: CMAKE_BUILD_TYPE=Release BOOST_VERSION=1.60.0
 
     - os: linux
       compiler: clang
@@ -28,7 +28,7 @@ matrix:
         apt:
           sources: [ 'ubuntu-toolchain-r-test', 'kalakris-cmake' ]
           packages: [ 'libstdc++-5-dev', 'cmake' ]
-      env: CMAKE_BUILD_TYPE=Debug
+      env: CMAKE_BUILD_TYPE=Debug BOOST_VERSION=1.60.0
 
     - os: linux
       compiler: clang
@@ -36,7 +36,7 @@ matrix:
         apt:
           sources: [ 'ubuntu-toolchain-r-test', 'kalakris-cmake' ]
           packages: [ 'libstdc++-5-dev', 'cmake' ]
-      env: CMAKE_BUILD_TYPE=Release
+      env: CMAKE_BUILD_TYPE=Release BOOST_VERSION=1.60.0
 
 # container-based builds
 sudo: false
@@ -44,21 +44,40 @@ cache:
   directories:
   - $HOME/.ccache
   - $HOME/download
+  - ${TRAVIS_BUILD_DIR}/deps/boost-1.60.0
 
 before_install:
+  ############################################################################
+  # All the dependencies are installed in ${TRAVIS_BUILD_DIR}/deps/
+  ############################################################################
+  - DEPS_DIR="${TRAVIS_BUILD_DIR}/deps"
+  - mkdir -p ${DEPS_DIR} && cd ${DEPS_DIR}
   - env
-  - export SRC_DIR="`pwd`"
   - if [ "$CXX" = "g++" ]; then export CXX="g++-5" CC="gcc-5" BOOST_TOOLSET=gcc; fi
   - if [ "$CXX" = "clang++" ]; then export BOOST_TOOLSET=clang; fi
   # Install newer boost compatible with gcc 5.
   - export DOWNLOAD_ROOT="$HOME/download"; if [ ! -d "$DOWNLOAD_ROOT" ]; then mkdir -p "$DOWNLOAD_ROOT"; fi
-  - export BOOST_DOWNLOAD_URL="http://sourceforge.net/projects/boost/files/boost/1.60.0/boost_1_60_0.tar.bz2/download"
-  - export BOOST_ROOT="$TRAVIS_BUILD_DIR/../boost"
+  ##- export BOOST_DOWNLOAD_URL="http://sourceforge.net/projects/boost/files/boost/1.60.0/boost_1_60_0.tar.bz2/download"
+  - BOOST_DOWNLOAD_URL="http://sourceforge.net/projects/boost/files/boost/${BOOST_VERSION}/boost_${BOOST_VERSION//\./_}.tar.bz2/download"
+  ##- export BOOST_ROOT="$TRAVIS_BUILD_DIR/../boost"
+  - export BOOST_ROOT=${DEPS_DIR}/boost-${BOOST_VERSION}
   - export CMAKE_MODULE_PATH="$BOOST_ROOT"
   ##- if [ ! -f "$DOWNLOAD_ROOT/boost.tar.bz2" ]; then wget --no-verbose --output-document="$DOWNLOAD_ROOT/boost.tar.bz2" "$BOOST_DOWNLOAD_URL"; fi
-  - if [ ! -f "$DOWNLOAD_ROOT/boost.tar.bz2" ]; then wget --output-document="$DOWNLOAD_ROOT/boost.tar.bz2" "$BOOST_DOWNLOAD_URL"; fi
+  - if [ ! -f "$DOWNLOAD_ROOT/boost.tar.bz2" ]; then travis_retry wget --output-document="$DOWNLOAD_ROOT/boost.tar.bz2" "$BOOST_DOWNLOAD_URL"; fi
   - if [ ! -d "$BOOST_ROOT" ]; then mkdir -p "$BOOST_ROOT" && tar jxf "$DOWNLOAD_ROOT/boost.tar.bz2" --strip-components=1 -C "$BOOST_ROOT"; fi
   - if [ ! -f "$BOOST_ROOT/b2" ]; then cd "$BOOST_ROOT"; ./bootstrap.sh --with-toolset="$BOOST_TOOLSET" --with-libraries=program_options,system,filesystem,regex,serialization,log; fi
+  ############################################################################
+  # Install a recent CMake
+  ############################################################################
+  - |
+    if [[ "${TRAVIS_OS_NAME}" == "linux" ]]; then
+      CMAKE_URL="https://cmake.org/files/v3.7/cmake-3.7.2-Linux-x86_64.tar.gz"
+      mkdir -p cmake && travis_retry wget --no-check-certificate --quiet -O - ${CMAKE_URL} | tar --strip-components=1 -xz -C cmake
+      export PATH=${DEPS_DIR}/cmake/bin:${PATH}
+    else
+      brew install cmake
+      brew upgrade cmake
+    fi
 
 install:
   - ccache -V && ccache --show-stats && ccache --zero-stats
@@ -67,11 +86,11 @@ install:
   - cd "$BOOST_ROOT"; ./b2 toolset="$BOOST_TOOLSET" threading=multi --prefix="$BOOST_ROOT" -d0 install
 
 script:
-  - CXX --version
+  - $CXX --version
   - cmake --version
-  - mkdir "$TRAVIS_BUILD_DIR/build-vanilla"
+  - mkdir -p ${TRAVIS_BUILD_DIR}/build-vanilla
   - cd "$TRAVIS_BUILD_DIR/build-vanilla"
-  - cmake -DBOOST_ROOT=$BOOST_ROOT  "$SRC_DIR"
+  - cmake -DBOOST_ROOT=$BOOST_ROOT ${TRAVIS_BUILD_DIR}/build-vanilla
   - ccache --show-stats
 
 
