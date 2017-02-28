@@ -121,7 +121,7 @@ script:
   ############################################################################
   - cd ${TRAVIS_BUILD_DIR}
   - (mkdir build-vanilla && cd build-vanilla && cmake .. ${CMAKE_OPTIONS})
-  - make -j4
+  - (cd build-vanilla && make -j4)
   - ccache --show-stats
 
 
