@@ -55,7 +55,8 @@ before_install:
   - export BOOST_DOWNLOAD_URL="http://sourceforge.net/projects/boost/files/boost/1.60.0/boost_1_60_0.tar.bz2/download"
   - export BOOST_ROOT="$TRAVIS_BUILD_DIR/../boost"
   - export CMAKE_MODULE_PATH="$BOOST_ROOT"
-  - if [ ! -f "$DOWNLOAD_ROOT/boost.tar.bz2" ]; then wget --no-verbose --output-document="$DOWNLOAD_ROOT/boost.tar.bz2" "$BOOST_DOWNLOAD_URL"; fi
+  ##- if [ ! -f "$DOWNLOAD_ROOT/boost.tar.bz2" ]; then wget --no-verbose --output-document="$DOWNLOAD_ROOT/boost.tar.bz2" "$BOOST_DOWNLOAD_URL"; fi
+  - if [ ! -f "$DOWNLOAD_ROOT/boost.tar.bz2" ]; then wget --output-document="$DOWNLOAD_ROOT/boost.tar.bz2" "$BOOST_DOWNLOAD_URL"; fi
   - if [ ! -d "$BOOST_ROOT" ]; then mkdir -p "$BOOST_ROOT" && tar jxf "$DOWNLOAD_ROOT/boost.tar.bz2" --strip-components=1 -C "$BOOST_ROOT"; fi
   - if [ ! -f "$BOOST_ROOT/b2" ]; then cd "$BOOST_ROOT"; ./bootstrap.sh --with-toolset="$BOOST_TOOLSET" --with-libraries=program_options,system,thread,regex; fi
 
