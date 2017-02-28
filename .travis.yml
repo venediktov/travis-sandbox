@@ -43,7 +43,7 @@ sudo: false
 cache:
   directories:
   - $HOME/.ccache
-  - $HOME/download
+  #- $HOME/download
   - ${TRAVIS_BUILD_DIR}/deps/boost-1.60.0
 
 install:
@@ -81,7 +81,7 @@ install:
   ############################################################################
   - |
     if [[ "${BOOST_BUILD}" == "true" ]]; then
-      (cd ${BOOST_DIR}/tools/build && ./bootstrap.sh && ./b2 install --prefix=${DEPS_DIR}/b2)
+      (cd ${BOOST_DIR}/tools/build && ./bootstrap.sh --with-toolset=${BOOST_TOOLSET} --with-libraries="program_options,system,filesystem,regex,serialization,log" && ./b2 toolset=${BOOST_TOOLSET} install --prefix=${DEPS_DIR}/b2)
       export PATH=${DEPS_DIR}/b2/bin:${PATH}
     fi
 
