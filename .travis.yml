@@ -50,7 +50,6 @@ install:
   ############################################################################
   # All the dependencies are installed in ${TRAVIS_BUILD_DIR}/deps/
   ############################################################################
-  - rm -rf ${TRAVIS_BUILD_DIR}/deps/boost-1.60.0
   - DEPS_DIR="${TRAVIS_BUILD_DIR}/deps"
   - mkdir -p ${DEPS_DIR} && cd ${DEPS_DIR}
   - env
