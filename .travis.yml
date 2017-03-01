@@ -54,13 +54,13 @@ install:
   - mkdir -p ${DEPS_DIR} && cd ${DEPS_DIR}
   - mkdir -p latest-gcc-symlinks
   - env
-  -| 
+  - |
    if [[ "$CXX" = "g++" ]]; then
        export CXX="g++-5" CC="gcc-5" BOOST_TOOLSET=gcc; 
        ln -s /usr/bin/${CXX} latest-gcc-symlinks/g++ 
        ln -s /usr/bin/${CC} latest-gcc-symlinks/gcc
    fi
-  -|
+  - |
    if [[ "$CXX" = "clang++" ]]; then
        export BOOST_TOOLSET=clang;
        ln -s /usr/bin/${CXX} latest-gcc-symlinks/clang++
