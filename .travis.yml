@@ -55,13 +55,13 @@ install:
   - mkdir -p latest-gcc-symlinks
   - env
   -| 
-   if [ "$CXX" = "g++" ]; then
+   if [[ "$CXX" = "g++" ]]; then
        export CXX="g++-5" CC="gcc-5" BOOST_TOOLSET=gcc; 
        ln -s /usr/bin/${CXX} latest-gcc-symlinks/g++ 
        ln -s /usr/bin/${CC} latest-gcc-symlinks/gcc
    fi
   -|
-   if [ "$CXX" = "clang++" ]; then
+   if [[ "$CXX" = "clang++" ]]; then
        export BOOST_TOOLSET=clang;
        ln -s /usr/bin/${CXX} latest-gcc-symlinks/clang++
        ln -s /usr/bin/${CC} latest-gcc-symlinks/clang
