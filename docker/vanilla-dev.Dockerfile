@@ -1,5 +1,5 @@
 FROM vanillartb/vanilla-base:0.0.1
-LABEL Description="vanilla-rtb Dev" Vendor="ForkBid" Maintainer="venediktov@github"
+LABEL Description="vanilla-rtb Dev" Vendor="ForkBid" Maintainer="mrbald@github"
 RUN apt-get update
 RUN apt-get install -y\
  cmake\
