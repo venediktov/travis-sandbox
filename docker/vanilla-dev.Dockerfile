@@ -1,4 +1,4 @@
-FROM mrbald/forkbid-base:0.0.1
+FROM vanillartb/vanilla-base:0.0.1
 LABEL Description="vanilla-rtb Dev" Vendor="ForkBid" Maintainer="venediktov@github"
 RUN apt-get update
 RUN apt-get install -y\
