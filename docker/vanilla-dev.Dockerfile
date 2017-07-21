@@ -24,6 +24,6 @@ WORKDIR /root/pkg
 WORKDIR /root/build
 WORKDIR /root/code
 
-ADD runme.sh /root/code
+ADD build-vanilla.sh /root/code
 
 CMD ["bash"]
