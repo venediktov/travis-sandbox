@@ -25,7 +25,7 @@ Development environment package :
 
 ```
 $ vanilla_env_ver=x.y.z
-$ cd vanilla/docker
+$ cd vanilla-rtb/docker
 $ docker build --tag vanillartb/vanilla-dev:${vanilla_env_ver} --file vanilla-dev.Dockerfile ${PWD}
 $ docker tag vanillartb/vanilla-dev:${vanilla_env_ver} vanillartb/vanilla-dev:latest
 $
