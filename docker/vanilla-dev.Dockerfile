@@ -25,5 +25,6 @@ WORKDIR /root/build
 WORKDIR /root/code
 
 ADD build-vanilla.sh /root/code
-
+CMD ["chmod", "+x" , /root/code/build-vanilla.sh"]
+CMD ["/root/code/build-vanilla.sh"]
 CMD ["bash"]
