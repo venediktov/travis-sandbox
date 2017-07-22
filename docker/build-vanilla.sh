@@ -13,5 +13,5 @@ cmake -G 'Unix Makefiles'\
     -DCMAKE_INSTALL_PREFIX="$(readlink -f ../../pkg/vanilla-rtb/snapshot)" \
     "$(readlink -f ../../code/vanilla-rtb)"
 
-cd ../build/vanilla-rtb && make -j$(nproc) -l$(nproc) install && cd ../../pkg/vanilla-rtb/snapshot/bin
+make -j$(nproc) -l$(nproc) install
 
