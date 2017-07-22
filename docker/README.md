@@ -93,6 +93,6 @@ db0004be8eff        bridge              bridge              local
 ```
 
 ## References
-[Debian Releases](https://www.debian.org/releases/)
-[Debian Docker Images](https://store.docker.com/images/debian/)
+[Debian Releases](https://www.debian.org/releases/)<br>
+[Debian Docker Images](https://store.docker.com/images/debian/)<br>
 [Dockerfile Reference](https://docs.docker.com/engine/reference/builder/)
