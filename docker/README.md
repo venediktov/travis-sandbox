@@ -83,7 +83,7 @@ sudo docker attach vanilla-prodbox
 running docker with manual port forwarding command --publish e.g -p8080:9081  has 20-30% performace degradation due 
 to this option utilizing  bridge driver, unless it has to be mapped using -p8080:9081 **avoid for performance issues**! 
 The most performant network solution is **--net=host** ( exposes all container ports to host ) however **vanilla-rtb**  ports in **examples/config.cfg** file may not be open on the cloud/host server therefore you have to think of shipping config with docker container per installation or starting stack with custom command line arguments ( --bidder.port=8080  ) or starting docker with 
-shared host file system ( please refer to docker volume -v flag )
+shared host/container file system ( please refer to docker volume -v flag )
 
 ```
 $ sudo docker network ls
