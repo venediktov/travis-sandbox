@@ -25,6 +25,9 @@ WORKDIR /root/build
 WORKDIR /root/code
 
 ADD build-vanilla.sh /root/code
-CMD ["chmod", "+x" , /root/code/build-vanilla.sh"]
-CMD ["/root/code/build-vanilla.sh"]
+
+RUN  chmod +x ./build-vanilla.sh && ./build-vanilla.sh
+
+WORKDIR /root/pkg/vanilla-rtb/snapshot/bin
+
 CMD ["bash"]
