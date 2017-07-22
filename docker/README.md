@@ -51,7 +51,7 @@ $ docker login
 $ docker push vanillartb/vanilla-prod:latest
 ```
 
-# Running
+# Running 
 
 ```bash
 $ docker run --net=host -it --name vanilla-devbox vanillartb/vanilla-dev:0.0.1
@@ -65,7 +65,7 @@ $ docker run --net=host -it --name vanilla-prodbox vanillartb/vanilla-prod:lates
 
 # Docker maintanance commands 
 ```bash
-## see iamges installed 
+## see images installed 
 sudo docker image ls
 ## remove stored image by id
 sudo docker image rm vanillartb/vanilla-prod
@@ -91,6 +91,7 @@ db0004be8eff        bridge              bridge              local
 42cee521962a        host                host                local
 23f65108302b        none                null                local
 ```
+#### Disclaimer : on linux most likely all of above docker commads need to preceed with sudo 
 
 ## References
 [Debian Releases](https://www.debian.org/releases/)<br>
