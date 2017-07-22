@@ -54,13 +54,13 @@ $ docker push vanillartb/vanilla-prod:latest
 # Running
 
 ```
-$ docker run --net=host -it --name 'vanilla-devbox' vanillartb/vanilla-dev:0.0.1
-$ docker run --net=host -it --name 'vanilla-prodbox' vanillartb/vanilla-prod:latest
+$ docker run --net=host -it --name vanilla-devbox vanillartb/vanilla-dev:0.0.1
+$ docker run --net=host -it --name vanilla-prodbox vanillartb/vanilla-prod:latest
 ```
 # Running in prod with Redis
 ```bash
 docker run --net=host --name vanilla-redis -d redis
-docker run --net=host -it --name 'vanilla-prodbox' vanillartb/vanilla-prod:latest
+docker run --net=host -it --name vanilla-prodbox vanillartb/vanilla-prod:latest
 ```
 
 ## References
